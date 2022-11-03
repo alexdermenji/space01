@@ -29,7 +29,7 @@ const data = [
 
 const ITEMS_VALUES = 5;
 
-const Test = () => {
+const App = () => {
   const [isFullList, setIsFullList] = useState(false);
   const sortedItems = () => {
     return data.sort((a, b) => a.price - b.price).slice(0, ITEMS_VALUES);
@@ -57,4 +57,4 @@ const Test = () => {
   );
 };
 
-export default Test;
+export default App;
